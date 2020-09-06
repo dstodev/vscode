@@ -1159,7 +1159,7 @@
 			"patterns": [
 				{
 					"name": "comment.line.double-slash.documentation.cpp",
-					"begin": "(?:^)(?>\\s*)(\\/\\/[!\\/]+)",
+					"begin": "(?>\\s*)(\\/\\/[!\\/]+)",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.definition.comment.documentation.cpp"
